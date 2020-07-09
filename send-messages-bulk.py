@@ -11,10 +11,10 @@ for phone in phones.split(","):
     data = {}
     data["chatId"] = phone + "@c.us"
 
-    data["body"] = "Assalamu'alaikum bapak/ ibu di mohon kehadirannya dalam acara yudisium tugas akhir.\n" \
+    data["body"] = "Assalamu'alaikum bapak/ ibu di mohon kehadirannya dalam acara yudisium tugas akhir tahap 1.\n" \
                    "Yang diadakan pada:\n" \
                    "Jumat, 10 Juli 2020, pk 08.30.\n" \
-                   "Zoom id: 983 9042 8008\n" \
+                   "Zoom id: https://zoom.us/j/98390428008\n" \
                    "Atas perhatian dan kehadirannya disampaikan terima kasih.\n\n" \
                    "Ttd\n" \
                    "Panitia Tugas Akhir"
@@ -30,4 +30,6 @@ for phone in phones.split(","):
     print(resp.status_code)
     if resp.status_code == 200:
         print(resp.text)
-    time.sleep(0.25)
+    else:
+        print(phone + " failed")
+    time.sleep(30)  # afraid banned by WA

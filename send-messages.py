@@ -5,14 +5,14 @@ HOST = "http://localhost:8001"
 TOKEN = "j19ksi1mim1lksm12213"
 
 data = {}
-# data["chatId"] = "6285878554150" + "@c.us"
-data["chatId"] = "6282245405673" + "@c.us"
+data["chatId"] = "6285878554150" + "@c.us"
+# data["chatId"] = "6282245405673" + "@c.us"
 # data["chatId"] = "628568855504" + "@c.us"
 
 data["body"] = "Assalamu'alaikum bapak/ ibu di mohon kehadirannya dalam acara yudisium tugas akhir.\n" \
                "Yang diadakan pada:\n" \
                "Jumat, 10 Juli 2020, pk 08.30.\n" \
-               "Zoom id: 983 9042 8008\n" \
+               "https://zoom.us/j/98390428008\n" \
                "Atas perhatian dan kehadirannya disampaikan terima kasih.\n\n" \
                "Ttd\n" \
                "Panitia Tugas Akhir\n\n" \
