@@ -8,7 +8,7 @@ data = {}
 # data["phone"] = "6285878554150" + "@c.us"
 # data["phone"] = "6282245405673" + "@c.us"
 data["chatId"] = "6285878554150" + "@c.us"
-data["body"] = "/Users/od3ng/PycharmProjects/wa-blash/resources/Undangan.png"  # file
+data["body"] = "https://images.unsplash.com/photo-1593782698775-6f95a4c9ee53?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"  # file
 data["filename"] = "Undangan Kamis.png"  # file name
 data["caption"] = "W2API - Best REST API for WhatsApp"
 print(data)
